@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande";
+}
+
+body {
+  background: #1b2a49;
+  width: 100%;
+}
+header {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #ffdc34;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.main {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-indent: 25px;
+  font-size: 20px;
+  border: 2px solid #00918e;
+  height: 50px;
+  width: 500px;
+  border-radius: 50px;
+}
+
+input:hover {
+  box-shadow: 0 0 20px #000;
+}
+
+span {
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  font-family: "Lucida Grande";
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  background-color: #00918e;
+  color: antiquewhite;
+  margin: 30px auto;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #41b683;
+}
+form {
+  text-align: center;
+}
